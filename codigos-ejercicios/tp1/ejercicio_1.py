@@ -51,4 +51,10 @@ B = np.block([[B_00, B_01], [B_10, B_11] ])
 
 print(f'C1= {A@B}')
 
+# A[i, :] Recorre la fila i y toda la columna j
+# A[i:j, :] Recorre la fila i hasta el indice j-1 y toda la columna j
+# A[:i, :] Recorre desde la fila 0 hasta la fila i-1 y toda la columna j
 
+# A[:, j] Recorre toda la fila i y solo toma la columna j
+# A[:, j:i] Recorre toda la fila i y la columna j hasta el indice i-1 
+# A[:, :j] Recorre toda la fila i  y recorre desde la columna 0 hasta el indice j-1
