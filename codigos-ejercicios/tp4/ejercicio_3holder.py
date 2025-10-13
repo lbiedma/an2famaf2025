@@ -39,15 +39,15 @@ def qrhholder(A):
 
     return Q, R 
 
-A = np.array([[2., 3], [5, 7]])
-#A = np.random.rand(3,4)
+# A = np.array([[2., 3], [5, 7]])
+# #A = np.random.rand(3,4)
 
-Q, R = qrhholder(A)
+# Q, R = qrhholder(A)
 
-print(A)
-print('-----------------------')
-print(R)
-print('-----------------------')
-print(Q@R-A)
-print('-----------------------')
-print(Q.T@Q)
+# print(A)
+# print('-----------------------')
+# print(R)
+# print('-----------------------')
+# print(Q@R-A)
+# print('-----------------------')
+# print(Q.T@Q)
