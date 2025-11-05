@@ -44,15 +44,15 @@ A = np.array([[2., 3], [5, 7]])
 
 Q, R = qrgivens(A)
 
-A = np.random.rand(3,4)
-print(A)
-Q, R = qrgivens(A)
-print('-----------------------')
-print(R)
-print('-----------------------')
-print(Q@R-A)
-print('-----------------------')
-print(Q.T@Q)
+# A = np.random.rand(3,4)
+# print(A)
+# Q, R = qrgivens(A)
+# print('-----------------------')
+# print(R)
+# print('-----------------------')
+# print(Q@R-A)
+# print('-----------------------')
+# print(Q.T@Q)
 
 
 
